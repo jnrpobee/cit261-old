@@ -9,7 +9,8 @@ header {
 body {
     margin: auto;
     padding: -12px;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 H1, h2 {
    

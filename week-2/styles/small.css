@@ -1,0 +1,69 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+   background-color: lightyellow;
+   font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+    /*padding: 10px; */
+    border: 4px solid black;
+    margin: .5em;
+    flex: 1 0 15em;
+}
+
+.left {
+  width: 34%;
+    background-color: lightblue;
+    float: left;
+    display: flex;
+}
+.middle {
+    width: 32%;
+    background-color: beige;
+    float: left;
+    display: flex;
+}
+.right {
+  width: 34%;
+    float: right;
+    background-color: coral;
+    display: flex;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.leftcol, .middlecol, .rightcol { 
+	flex: 1 0 15em;
+    border: solid 3px black;
+}
+.middlecol {
+    float: left;
+    max-width: auto;
+    background-color: beige;
+}
+.rightcol {
+    float: right;
+    max-width: auto;
+    background-color: coral;
+}
+.leftcol {
+    float: left;
+    max-width: auto;
+    background-color: lightblue;
+}

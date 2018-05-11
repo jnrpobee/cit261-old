@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+    
+    .leftcol, .middlecol, .rightcol { 
+	flex: 1 0 15em;
+    border: solid 3px black;
+}
+.middlecol {
+    float: left;
+    width: 32%;
+}
+.rightcol {
+    float: right;
+    width: 34%;
+}
+.leftcol {
+    float: left;
+    width: 34%;
+}
