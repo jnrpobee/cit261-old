@@ -51,6 +51,8 @@ h1, h2, h3, h4 {
 .leftcol, .middlecol, .rightcol { 
 	flex: 1 0 15em;
     border: solid 3px black;
+    padding: 6px;
+    text-align: center;
 }
 .middlecol {
     float: left;
@@ -58,6 +60,7 @@ h1, h2, h3, h4 {
     background-color: beige;
 }
 .rightcol {
+    color: white;
     float: right;
     max-width: auto;
     background-color: coral;

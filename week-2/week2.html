@@ -46,23 +46,58 @@
              <div class="row">
                 <div class="leftcol">
                     <h2>Videos</h2>
-                    <video controls>
+                    <article>
+                    <p>With this type of video, the user need to click on the play button before the video plays but before the video plays there is an image that displays which serves as a poster.</p>
+                    <video controls poster="images/20170531_111924.jpg">
                         <source src="videos/VID-20171103-WA0000.mp4" type="video/mp4">
+                        Sorry cannot play this video.
                     </video>
-                    <video loop>
-                        <source src="videos/VID-20171103-WA0000.mp4" type="video/mp4">
+                        </article><br>
+                    <article>
+                        <p>In this segment the video has to play automatically without click on the play buttom. there is no controls for this type of option for the user to make his own dicision.</p>
+                    <video autoplay width="240">
+                        <source src="videos/VID-20170504-WA0010.mp4" type="video/mp4">
+                        Sorry cannot play this video.
                     </video>
+                        </article><br>
+                    <article>
+                            <p>In this video, the controls are muted </p>
+                            <video muted controls poster="images/20170531_111924.jpg">
+                            <source src="videos/VID-20171103-WA0000.mp4" type="video/mp4"> </video>
+                    </article><br>
+                    <article>
+                        <p>In this video segment there is going to be a loop over and over</p>
+                        <video loop controls width="330">
+                            <source src="videos/Glorious%20by%20David%20Archuleta%20from%20Meet%20the%20Mormons%20Cover%20by%20One%20Voice%20Children's%20Choir.mp4" type="video/mp4">
+                        </video>
+                    </article><br>
+                    <article>
+                        <p>auto play with loop in this part of the video</p>
+                        <video muted autoplay loop width="240">
+                            <source src="videos/VID-20170504-WA0010.mp4" type="video/mp4">
+                        </video>
+                    </article>
                 </div>
                 
                 <div class="middlecol">
                     <h2>Audios</h2>
-                    <audio controls>
+                    <p>
+                        In this audio, it has been set to loop over once it ends.
+                    <audio controls loop>
                         <source src="audios/C%C3%A9line%20Dion%20-%20Incredible.m4a" type="audio/mp4">
+                        Sorry cannot play audio.
                     </audio>
+                        </p><br>
+                    <p>In this second audio, it is set to be controled by the user and stops once it ends playing
+                    <audio controls><source src="audios/AUD-20170928-WA0013.mp3" type="audio/mp4"> sorry cant play audio. </audio></p>
                 </div>
                 
                 <div class="rightcol">
                     <h2>Canvas</h2>
+                    <h3>What is HTML Canvas?</h3>
+                    <p>The HTML "canvas" element is used to draw grphics, on the fly, via JavaScript. <br>
+                    The "canvas" element is only a container for graphics. You mush use JavaScript to actually draw the graphics. <br>
+                 Canvas has several methods for drawing paths, boxes, circles, text and adding images</p>
                 </div>
             </div>  -->
         </main>
