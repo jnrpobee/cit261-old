@@ -1,0 +1,45 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+   font-size: px;
+    border: 1px solid black;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    background-color: lightsteelblue;
+    text-align: center;
+
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+html {
+        border: 2px solid black;  
+    font-size: 18px;
+}
+main {
+    background-color: lightyellow;
+    padding: 10px;
+    margin-top: 0px;
+}
+.form {
+    align-content: center;
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+}
+#Putme, #Output, #Otput, {
+    background-color: white;
+    width: 7em;
+    border: 2px solid;
+    padding: 4px;
+}
+div {
+    color: red;
+}

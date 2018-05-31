@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="page description placeholder">
+        <meta name="author" content="Solomon Buaku Pobee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5 Tags - videos, audios, canvas</title>
+
+        <!-- external stylesheet references -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  <!-- Google API font reference -->
+        <link href="styles/large.css" rel="stylesheet">  <!-- large/wide/destop view -->
+        <link href="styles/medium.css" rel="stylesheet"> <!-- medium/tablet view -->
+        <link href="styles/small.css" rel="stylesheet"> <!-- small/phone view -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser default -->
+    </head>
+    <body>
+        <header>
+            <h1>JSON Parse, Stringify.</h1>
+        </header>
+        <hr>
+        <main>
+            <h2>This is an example of JSON Parse and Stringify</h2>
+            <p id="output">result</p>
+           
+        </main>
+        
+        <script type="text/javascript">
+            var txt = '{ "name" : "Pobee Solomon", "age" : 25, "city" : "Accra"}';
+            
+            var parsedtxt = JSON.parse(txt);
+            
+            document.getElementById("output").innerHTML = parsedtxt.name + "<br>";
+        
+            
+            var mission = {
+                mission_name : "Abidjan" ,
+                Country : "Cote D'Iviore" , 
+                year : "2015" , 
+                month : "April"
+                
+            };
+            
+            var stringifytxt = JSON.stringify(mission);
+                        document.getElementById("output").innerHTML += stringifytxt;
+
+        </script>
+    </body>
+</html>
