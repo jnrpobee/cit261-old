@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <h1>Object Creation Functions, Inheritance, Propertties, Methods, Instantiation.</h1>
+            <h1>Object Creation Functions, Inheritance, Properties, Methods, Instantiation.</h1>
         </header>
         <hr>
         <main>
@@ -35,7 +35,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                    <td>missionName</td>
+                    <td>mission Name</td>
                     <td>Cote D'Iviore</td>
                     </tr>
                     <tr>
@@ -44,7 +44,7 @@
                         <td>2015</td>
                     </tr>
                     <tr>
-                        <td>favColor</td>
+                        <td>favorite Color</td>
                         <td>green</td>
                     </tr>
                     <tr>
@@ -54,11 +54,30 @@
                 </tbody>
             </table>
             
-            <p>In this is example we will access the year of going on mission.
-            
+            <p>In this is example we will access the <b>year</b> of going on mission.<br><br>
+            Enter year of going on mission<input type="text" id="input" size="3" placeholder="Year"><br>
+                Enter mission name<input type="text" id="mission" placeholder="Mission name"><br>
+                Enter favorite color<input type="text" id="favcol" placeholder="favorite Color"><br>
+                Enter number of missionnaries<input type="text" id="numM" placeholder="number of Missionaries" size="3"><br><br>
+                
+                <button type="button" onclick="missionYear()">year</button>
             </p>
+            <div id="output">result</div>
+            <br>
+            
+            <h3>Methods</h3>
+            <p>A method are functions that are stored as object properties.</p>
+            <p style="line-height: 1">this example will determine the year of birth by inputing the age of a person.</p>
+            <p>Enter name <input type="text" placeholder="Name" id="uName"><br>
+               Enter your age <input type="text" placeholder="age" id="ega" size="3"><br>
+            <button type="button" onclick="myAge()">Age</button> </p>
+            
+            <div id="result">result</div>
+            <br>
             
             
+            <h3>Inheritance</h3>
+            <p>Inheritance </p>
         </main>
         
         <script src="scripts/objectCrea.js"></script>
