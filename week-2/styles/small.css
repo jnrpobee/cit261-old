@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
     clear: both;
 }
 
-.leftcol, .middlecol, .rightcol { 
+.leftcol, .middlecol, .rightcol {
 	flex: 1 0 15em;
     border: solid 3px black;
     padding: 6px;
@@ -80,4 +80,10 @@ h1, h2, h3, h4 {
 
 video {
     max-width: 50%;
+}
+
+footer {
+    background-color: #ddd;
+    padding: .6rem 2%;
+    text-align: center;
 }

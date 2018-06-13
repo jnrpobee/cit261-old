@@ -57,3 +57,9 @@ div{
     background-color: black;
     text-shadow: 1px 1px;
 }
+
+footer {
+    background-color: #ddd;
+    padding: .6rem 2%;
+    text-align: center;
+}
