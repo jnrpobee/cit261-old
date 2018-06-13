@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="page description placeholder">
+        <meta name="author" content="Solomon Buaku Pobee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creating CSS3 Transition, Animations in CSS and Triggering them with Javascript</title>
+
+        <!-- external stylesheet references -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  <!-- Google API font reference -->
+        <link href="styles/large.css" rel="stylesheet">  <!-- large/wide/destop view -->
+        <link href="styles/medium.css" rel="stylesheet"> <!-- medium/tablet view -->
+        <link href="styles/small.css" rel="stylesheet"> <!-- small/phone view -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser default -->
+    </head>
+    <body>
+      <header>
+          <h1>Creating CSS3 Transition, Animations in CSS and Triggering them with Javascript</h1>
+      </header>
+      <hr>
+      <main>
+        <h2>Transition/Animation.</h2>
+
+<p>This is an example of CSS3 transition and Animations<p>
+<div id="myDIV"></div>
+
+<p>The background-position property is <em>animated</em> in CSS.</p>
+<p>The CSS3 animations do not always work with internet explorer version 9 and earlier version<br>
+
+click on the button below to either hide or show the design</p>
+
+<button type="button" onclick="myDesign()">Click here</button>
+
+  <div id="myDesigner">amazing</div>
+
+      </main>
+
+
+      <script>
+ function myDesign() {
+  var x = document.getElementById('myDesign');
+  if (x.style.visibility === 'hidden') {
+      x.style.visibility = 'visible';
+  } else {
+      x.style.visibility = 'hidden';
+  }
+}
+</script>
+
+
+<footer>
+<p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
+<p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
+    </footer>
+  </body>
+</html>

@@ -22,28 +22,33 @@
         <main>
             <h2>This is an example of JSON Parse and Stringify</h2>
             <p id="output">result</p>
-           
+
         </main>
-        
+
         <script type="text/javascript">
             var txt = '{ "name" : "Pobee Solomon", "age" : 25, "city" : "Accra"}';
-            
+
             var parsedtxt = JSON.parse(txt);
-            
+
             document.getElementById("output").innerHTML = parsedtxt.name + "<br>";
-        
-            
+
+
             var mission = {
                 mission_name : "Abidjan" ,
-                Country : "Cote D'Iviore" , 
-                year : "2015" , 
+                Country : "Cote D'Iviore" ,
+                year : "2015" ,
                 month : "April"
-                
+
             };
-            
+
             var stringifytxt = JSON.stringify(mission);
                         document.getElementById("output").innerHTML += stringifytxt;
 
         </script>
+
+        <footer>
+        <p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
+        <p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
+            </footer>
     </body>
 </html>

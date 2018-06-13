@@ -20,9 +20,38 @@
         </header>
         <hr>
         <main>
-            
+          <div id="checkIt"> </div>
+     <a id ="showIt"> Show More </a>
         </main>
-        
+
+        <script>
+           function setUpEvents() {
+               var content = document.getElementById("checkIt");
+               var button = document.getElementById("showIt");
+
+               button.onclick = function(){
+                   if (content.className == "open"){
+                       //shrink the box
+                       content.className ="";
+                       button.innerHTML = "Show More";
+                   }else{
+                       //open more the box
+                       content.className = "open";
+                       button.innerHTML = "show Less";
+
+                   }
+               };
+           }
+
+           window.onload = function(){
+               setUpEvents();
+           }
+       </script>
+
+       <footer>
+       <p id="edu">&star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>&star;</p>
+       <p>&copy;2018 Alright Reserved | Solomon B. Pobee    </p>
+           </footer>
     </body>
-    
+
 </html>
