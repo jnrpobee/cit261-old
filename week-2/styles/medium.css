@@ -2,4 +2,9 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
   
   nav button { display:none; }  /* hamburger button does not need to be shown */
-  
+    
+    video {
+        max-width: 50%;
+    }
+    
+}
