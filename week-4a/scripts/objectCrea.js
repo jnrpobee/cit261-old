@@ -1,6 +1,6 @@
 function missionYear() {
  var yr = parseFloat(document.getElementById("input").value);   
- var mName = parseFloat(document.getElementById("mission").value);
+ var mName = document.getElementById("mission").value;
  var favC = parseFloat(document.getElementById("favcol").value);
      var numOnM = parseFloat(document.getElementById("numM").value);   
 
@@ -8,7 +8,7 @@ var person = {
     name:mName, year:yr,
     favColor:favC, numberOfMiss:numOnM
 };
-    document.getElementById("output").innerHTML = person.year;
+    document.getElementById("output").innerHTML = "In " + person.year  +"  were in the " + person.name + "  mission";
 
 }
 missionYear();

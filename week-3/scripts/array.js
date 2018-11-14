@@ -18,20 +18,20 @@ arraYem();
 
 //Associative Array
 function associaTive(){
-    var nameOne = parseFloat(document.getElementById("Kings").value);
-    var nameTwo = parseFloat(document.getElementById("Kingm").value);
-    var nameThree = parseFloat(document.getElementById("Kingl").value);
+   var nameOne = document.getElementById("Kings").value;
+    var nameTwo = document.getElementById("Kingm").value;
+    var nameThree = document.getElementById("Kingl").value;
     var nameAge = parseFloat(document.getElementById("Kingage").value);
     
     var valn = parseFloat(document.getElementById("myval").value);
     
-    document.getElementById("Asstive").innerHTML =  person[valn] + " " + person.length;
+    document.getElementById("Asst").innerHTML =  person[valn] + " " + person.length;
     
     var person = [];
-    person[0] = nameOne;
-    person[1] = nameTwo;
-    person[2] = nameThree;
-    person[3] = nameAge;
+    person[firstname] = nameOne;
+    person[middlename] = nameTwo;
+    person[lastname] = nameThree;
+    person[age] = nameAge;
 }
 associaTive();
 

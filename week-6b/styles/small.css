@@ -28,3 +28,7 @@ footer {
     padding: .6rem 2%;
     text-align: center;
 }
+
+#justice{
+    visibility: visible;
+}

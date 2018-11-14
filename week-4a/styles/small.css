@@ -50,12 +50,9 @@ tr:nth-child(even) {
 }
 
 div{
-    color: white;
-    border: 2px solid lightgreen;
-    width: 5em;
+    width: 15em;
     text-align: center;
-    background-color: black;
-    text-shadow: 1px 1px;
+    background-color: aqua;
 }
 
 footer {
